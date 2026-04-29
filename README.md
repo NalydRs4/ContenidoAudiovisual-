@@ -22,7 +22,7 @@ clases, además de gestionar y clonar proyectos en GitHub.
 - Actor: Relacionada con Película (**AGREGACIÓN**).
 - Temporada: Relacionada con SerieDeTV (**COMPOSICIÓN**).
 - Investigador: Relacionada con Documental (**AGREGACIÓN**).
-- Invitado: Relacionada con Podcast (**ASOCIACIÓN**).
+- Invitado: Relacionada con Podcast (**ASOCIACIÓN**). 
 - Circuito y Ganador: Relacionada con EventoDeportivo (**AGREGACIÓN**).
 - Podio: Relacionada con EventoDeportivo (**COMPOSICIÓN**).
 
@@ -33,6 +33,12 @@ clases, además de gestionar y clonar proyectos en GitHub.
 **Mejoras adicionales:**
 
 Optimice el código, reestructuré los paqutes del proyecto, agregué y relacioné nuevas clases a las subcalses originales del proyecto como: Director, Presupuesto, etc.
+
+- Para **Temporada : SerieDeTV** voy a implementar una relación de COMPOSICIÓN ya que si se elimina la serie, sus temporadas también dejarían de existir sin la misma.
+- Para la clase **Actor : Película e Investigador : Documental** voy a implementar una relación de AGREGACIÓN ya que si la película o documental se elimina, los actores e investigadores relacionados pueden existir individualmente del todo.
+- Clase **Invitado : Podcast** con relación de ASOCIACIÓN con respecto a Podcast, ya que un podcast puede tener o no invitados y estos pueden existir independientemente del podcast.
+- Clases **Ganador - Circuito : EventoDeportivo** con relación de AGREGACIÓN, ya que un evento deportivo tiene ganadores y circuitos, pero estos pueden existir independientemente del evento deportivo.
+- Clase **Podio : EventoDeportivo**, con una relación de COMPOSICIÓN ya que un podio no puede existir sin el evento deportivo.
 
 **Estructura de Carpetas:** 
 
