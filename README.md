@@ -53,8 +53,8 @@ src/ups/poo/audiovisual/contenido - ejecucion
   
 <img width="1366" height="768" alt="Pasted image (2)" src="https://github.com/user-attachments/assets/71b2cb78-0ba6-42ac-a9dc-b19f315992c6" />
 
-- Tendrá dos paquetes al final, uno llamado CONTENIDO donde se encuentran las subclases Pelicula, Actor, ContenidoAudioVisual, etc.
-- El otro paquete será EJECUCIÓN donde tendrá la clase PruebaAudioVisual para poder ejecutar el proyecto y manipular las clases.
+- Tendrá dos paquetes al final, uno llamado *CONTENIDO* donde se encuentran las subclases Pelicula, Actor, ContenidoAudioVisual, etc.
+- El otro paquete será *EJECUCION* donde tendrá la clase PruebaAudioVisual para poder ejecutar el proyecto y manipular las clases.
 
  <img width="1366" height="768" alt="Pasted image (3)" src="https://github.com/user-attachments/assets/168e7f09-736e-492d-90df-5c03d92017eb" />
 
