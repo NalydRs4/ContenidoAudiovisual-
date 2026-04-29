@@ -2,20 +2,17 @@
 
 *Programación Orientada a Objetos*
 
-**#Tarea 1: Unidad 2** - Relación entre Clases
-
-*Actividad: Ampliación de Contenidos Audiovisuales*
+**#Tarea 2:** Relación entre Clases
 
 **Propósito:**
 
-Poder reforzar el dominio en la Programación Orientada a Objetos mediante la expansión e integración de clases, diagramación de clases y el uso correcto de relaciones entre
-clases, además de gestionar y clonar proyectos en GitHub.
+Mejorar el dominio de conocimientos sobre la Programación Orientada a Objetos a través de la ampliación e incorporación de clases, la elaboración de diagramas de clases y la adecuada aplicación de relaciones entre clases, así como la administración y clonación de proyectos en GitHub.
 
 **Objetivos:**
 
-- Integrar nuevas clases al proyecto base (ContenidoAudiovisual) y hacer un uso correcto de las relaciones de herencia, asociación, agregación y composición.
-- Proceder con la diagramación de las clases, en donde se debe representar visualmente la estructura, atributos y las interacciones entre las clases y subclases del proyecto.
-- Aplicar flujos de trabajo utilizando GitHub para facilitar la administración y el mantenimiento del proyecto.
+- Incorporar nuevas clases al proyecto original (ContenidoAudiovisual) y utilizar apropiadamente las relaciones de herencia, asociación, agregación y composición.
+- Continuar con la elaboración de los diagramas de las clases a travez de PlantUML, donde se debe ilustrar de manera visual la organización, las propiedades y las interacciones entre las clases y subclases del proyecto.
+- Implementar flujos de trabajo a través de GitHub para optimizar la gestión y el mantenimiento de proyectos.
 
 **Clases y funcionalidades nuevas:**
 
@@ -34,11 +31,11 @@ clases, además de gestionar y clonar proyectos en GitHub.
 
 Optimice el código, reestructuré los paqutes del proyecto, agregué y relacioné nuevas clases a las subcalses originales del proyecto como: Director, Presupuesto, etc.
 
-- Para **Temporada : SerieDeTV** voy a implementar una relación de COMPOSICIÓN ya que si se elimina la serie, sus temporadas también dejarían de existir sin la misma.
-- Para la clase **Actor : Película e Investigador : Documental** voy a implementar una relación de AGREGACIÓN ya que si la película o documental se elimina, los actores e investigadores relacionados pueden existir individualmente del todo.
-- Clase **Invitado : Podcast** con relación de ASOCIACIÓN con respecto a Podcast, ya que un podcast puede tener o no invitados y estos pueden existir independientemente del podcast.
-- Clases **Ganador - Circuito : EventoDeportivo** con relación de AGREGACIÓN, ya que un evento deportivo tiene ganadores y circuitos, pero estos pueden existir independientemente del evento deportivo.
-- Clase **Podio : EventoDeportivo**, con una relación de COMPOSICIÓN ya que un podio no puede existir sin el evento deportivo.
+- Para **Temporada : SerieDeTV** voy a establecer un vínculo de *COMPOSICIÓN* ya que, al suprimirse la serie, sus respectivas temporadas igualmente dejarian de existir sin ella.
+- Para la clase **Actor : Película e Investigador : Documental** establezco el vínculo de *AGREGACIÓN*, dado que en el caso de que la película o el documental sean eliminados, los actores y los investigadores vinculados pueden existir de manera independiente.
+- Clase **Invitado : Podcast** con vínculo de *ASOCIACIÓN* en relación a un Podcast, dado que un podcast puede contar con invitados o no, y estos pueden existir de manera independiente al podcast.
+- Clases **Ganador - Circuito : EventoDeportivo** con relación de *AGREGACIÓN*, dado que en el caso de que el EventoDeportivo sea eliminado, los circuitos y el ganador vinculado pueden existir de manera independiente del evento deportivo.
+- Clase **Podio : EventoDeportivo**, con una relación de *COMPOSICIÓN*, ya que al eliminar el evento deportivo, el podio dejaría de existir sin el.
 
 **Estructura de Carpetas:** 
 
@@ -49,7 +46,7 @@ src/ups/poo/audiovisual/contenido - ejecucion
 - src/: Carpeta que contiene el código fuente de la aplicación.
 - audiovisual/: Carpeta que contiene **contenido** (*clases y sublases*) y **ejecucion** (*main para ejecutar el proyecto*).
 
-**Instrucciones de Instalación y uso:**
+**Instrucciones de Instalación:**
 
 - Copiar el enlace HTTPS: **https://github.com/NalydRs4/ContenidoAudiovisual-.git**
 - Abrir nuevo espacio de trabajo en el programa a clonar y seleccionar Clonar Repositorio Git y pegar el enlace HTTPS.
